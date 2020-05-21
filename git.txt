@@ -1,0 +1,38 @@
+les commandes de git et github:
+cd 
+cd /E
+cd git/      apres la creation du fichier git a l'iterieure de E
+    pour la configuration
+git config --global user.name "your name"   
+git config --global user.emaaddgitil "youremail@demain.com" 
+git clone url  ( l'url on le copie de git github)
+cd testgit/
+    pour pusher un fichier sur git github 
+  d'abord on crais notre fichier dans le fichier git puis on reagis comme suite:
+git add file-name
+git status
+git commit -m "first commit" filename
+git push -u origin master
+    si on modifie se meme fichier et on voudrais pusher ces modification on reagis cmme suite
+git status
+git commit -m "second commit" test.txt
+git push -u origin master
+
+
+
+
+     les commandes de push:
+cd
+cd /E
+cd git/
+ls
+git init
+git add .
+git status
+git commit -m "profile post"
+git remote add origin https://github.com/karina29052000/hello-.git
+git push -u origin master
+
+
+
+
